@@ -1,16 +1,9 @@
 on:
-  pull_request:
-    branches:
-      #- dev
-      - master
   push:
     branches:
       - main
       - master
       - release
-      #- ci-cd-test
-      #- ci-cd-change-release
-name: "Build & Release"
 version: 2.1
 jobs:
   build:
