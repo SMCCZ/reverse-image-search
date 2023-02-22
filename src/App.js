@@ -15,7 +15,25 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/home" element={<Home />}></Route>
         </Routes>
-      </Router>
+      </Router>{" "}
+      <div
+        style={{
+          background: "black",
+          color: "white",
+          paddingTop: "2px",
+          minHeight: "80px",
+        }}
+      >
+        {" "}
+        <footer>
+          <p>
+            Developer:Sabir Mondal
+            <br />Contact: +91 8617418378
+            <br />&copy; {new Date().getFullYear()}
+          </p>
+        
+        </footer>
+      </div>
     </div>
   );
 }
