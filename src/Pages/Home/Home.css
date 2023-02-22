@@ -3,5 +3,9 @@ h1 {
 }
 
 input {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+}
+
+.Home {
+    min-height: 100vh;
 }
