@@ -9,3 +9,16 @@ input {
 .Home {
     min-height: 100vh;
 }
+
+.engine {
+    color: white;
+    margin-top: 32px;
+    text-decoration: none;
+    color: rgb(152, 42, 42);
+    font-size: 2rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

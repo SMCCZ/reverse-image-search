@@ -1,6 +1,6 @@
 import { getFirestore, collection, getDocs } from "firebase/firestore/lite";
 
-const db = getFirestore(app);
+const db = getFirestore();
 
 const imageCollection = "images";
 const getImages = async () => {
